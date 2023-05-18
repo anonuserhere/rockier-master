@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+ul {
+  margin-bottom: 0px;
+}
+
+.RM-logo {
+  height: 95%;
+}
+
+nav {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  width: 100vw;
+  height: 96px;
+  padding: 5px 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  align-items: center;
+}
+
+li {
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.carousel {
+  margin-top: 49px;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 600px;
+}
+
+.carousel-inner,
+.carousel-item {
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body {
+  height: 50px;
+  background-color: black;
+  align-content: center;
+  padding: 0;
+}
+
+.card-text {
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  text-align: center;
+  margin: 0;
+}
+
+footer {
+  display: inline-flex;
+  padding-top: 15px;
+  padding-bottom: 7px;
+  background-color: black;
+  width: 100vw;
+  color: white;
+  justify-content: center;
+  text-align: left;
+  margin-top: 5px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.endingmiddle {
+  text-align: left;
+  letter-spacing: 3px;
+  font-size: 16px;
+  margin-right: 20px;
+  line-height: 40px;
+}
+
+.endingtext {
+  text-align: left;
+  font-size: 9px;
+  display: inline-block;
+  margin-right: 130px;
+  margin-left: 10px;
+}
+
+.endinglogos {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.end-logo-left {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.facebook,
+.join-us {
+  object-fit: contain;
+  height: 75%;
+}
+
+.instagram {
+  height: 37.5%;
+  align-items: left;
+}
+
+li:hover,
+.facebook:hover,
+.instagram:hover,
+.join-us:hover {
+  cursor: pointer;
+}
